@@ -2,7 +2,7 @@
 
 This repository is just an implementation of https://github.com/wilzbach/msa, deployed with GitHub Pages since their official app (http://msa.biojs.net/app/) seems to be down.
 
-This MSA (Multiple Sequence Alignment) viewer tool will be used during the second lab of the Bioinformatics subject
+This MSA (Multiple Sequence Alignment) viewer tool will be used during the second lab of the Bioinformatics course.
 
 ## Usage
 
