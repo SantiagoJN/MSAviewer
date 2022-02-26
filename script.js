@@ -6,7 +6,9 @@ var opts = {};
 opts.seqs = msa.utils.seqgen.getDummySequences(1000,300);
 opts.el = document.getElementById("yourDiv");
 opts.vis = {conserv: false, overviewbox: false}
-opts.zoomer = {alignmentHeight: 405, labelWidth: 110,labelFontsize: "13px",labelIdLength: 50}
+height = window.screen.height - 250;
+console.log(height)
+opts.zoomer = {alignmentHeight: height, labelWidth: 110,labelFontsize: "13px",labelIdLength: 50}
 
 // init msa
 var m = new msa.msa(opts);
